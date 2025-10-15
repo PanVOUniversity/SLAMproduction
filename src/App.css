@@ -884,6 +884,7 @@ html {
 
   .cta-buttons { gap: 12px; }
   .cta-button { width: 100%; max-width: 420px; }
+  .equipment .cta-button { text-align: center; }
 
   /* Service CTA buttons ~30% smaller on mobile */
   .service-cta {
