@@ -1,5 +1,7 @@
 import './App.css';
 import { useEffect, useState } from 'react';
+import duck from './assets/duck.png';
+import logo2 from './assets/logo2.png';
 import Equipment from './Equipment';
 import AIEquipmentSelector from './AIEquipmentSelector';
 
@@ -139,9 +141,9 @@ export default function App() {
           <div className="hero-inner">
             <img
               className="hero-logo animate-logo"
-              src={`${process.env.PUBLIC_URL}/duck.png`}
+              src={duck}
               alt="SLAM Production"
-              onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = `${process.env.PUBLIC_URL}/logo2.png`; }}
+              onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = logo2; }}
             />
             <h1 className="hero-title animate-title">Sound Light And Media Production</h1>
           </div>
