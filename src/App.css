@@ -422,11 +422,11 @@ html {
 }
 
 .service-bg-1 {
-  background-image: url(%PUBLIC_URL%/экраны за сценой и освещение красные и синие прожекторы фон.jpg);
+  background-image: url(%PUBLIC_URL%/bg1.jpg);
 }
 
 .service-bg-2 {
-  background-image: url(%PUBLIC_URL%/mainbackground.jpg);
+  background-image: url(%PUBLIC_URL%/bg2.jpg);
 }
 
 .service-card:hover .service-bg {

@@ -139,9 +139,9 @@ export default function App() {
           <div className="hero-inner">
             <img
               className="hero-logo animate-logo"
-              src="/утка боком белая.png"
+              src="/duck.png"
               alt="SLAM Production"
-              onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/логотип2.png'; }}
+              onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/logo2.png'; }}
             />
             <h1 className="hero-title animate-title">Sound Light And Media Production</h1>
           </div>
