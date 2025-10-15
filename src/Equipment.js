@@ -19,11 +19,16 @@ export default function Equipment() {
           <p className="equipment-desc">Яркие, управляемые приборы для сцен любой сложности: от камерных до арен.</p>
           <ul>
             <li>Wash 19x15 (реплика MAC Aura) — 22 шт</li>
-            <li>Beam 230 7R — 8 шт • Robe ColorSpot (300/250) — 6 шт</li>
-            <li>Par 18×18 — 10 шт • LED Bar 18×20 — 10 шт</li>
-            <li>BeeEye K10 — 6 шт (4 в аренде) • K15 — 8 шт (4 в аренде)</li>
-            <li>Tour Hazer 1500 — 1 шт • 3000 — 1 шт (в ремонте)</li>
-            <li>Пульты: GMA2 Mini, Command Wing, Fader Wing; ноутбуки — 2 шт</li>
+            <li>Beam 230 7R — 8 шт</li>
+            <li>Robe ColorSpot (300/250) — 6 шт</li>
+            <li>Par 18×18 — 10 шт</li>
+            <li>LED Bar 18×20 — 10 шт</li>
+            <li>BeeEye K10 — 6 шт (4 в аренде)</li>
+            <li>K15 — 8 шт (4 в аренде)</li>
+            <li>Tour Hazer 1500 — 1 шт</li>
+            <li>Tour Hazer 3000 — 1 шт (в ремонте)</li>
+            <li>Пульты: GMA2 Mini, Command Wing, Fader Wing</li>
+            <li>Ноутбуки — 2 шт</li>
             <li>Монтотем сборный — 4 шт (ещё 4 будут)</li>
           </ul>
         </div>
@@ -35,10 +40,16 @@ export default function Equipment() {
           </div>
           <p className="equipment-desc">Чистый и мощный звук для зала любого размера, от конференций до open‑air.</p>
           <ul>
-            <li>L‑Acoustics Kara S118 — 10 шт • Kara 2 — 14 шт</li>
-            <li>Усиление: Verse 10 кВт, EV 10 кВт, JBL SRX 10 кВт</li>
-            <li>Ударные — 4 шт • Бас‑комбо — 8 шт • Гитарные — 12 шт</li>
-            <li>Радио‑микрофоны — 20 шт • Радио‑гарнитуры — 20 шт</li>
+            <li>L‑Acoustics Kara S118 — 10 шт</li>
+            <li>L‑Acoustics Kara 2 — 14 шт</li>
+            <li>Усиление: Verse — 10 кВт</li>
+            <li>Усиление: EV — 10 кВт</li>
+            <li>Усиление: JBL SRX — 10 кВт</li>
+            <li>Ударные — 4 шт</li>
+            <li>Бас‑комбо — 8 шт</li>
+            <li>Гитарные — 12 шт</li>
+            <li>Радио‑микрофоны — 20 шт</li>
+            <li>Радио‑гарнитуры — 20 шт</li>
             <li>Ин‑эры — 12 каналов</li>
           </ul>
         </div>
@@ -50,8 +61,10 @@ export default function Equipment() {
           </div>
           <p className="equipment-desc">Высокая яркость и чёткость: для залов, входных групп и рекламных зон.</p>
           <ul>
-            <li>LED 500×500, Р2.6 — 120 м² • LED Р2.5 — 20 м²</li>
-            <li>Пилоны 960×1920, Р2.5 — 10 шт • LED Р3.5 — 40 м²</li>
+            <li>LED 500×500, Р2.6 — 120 м²</li>
+            <li>LED Р2.5 — 20 м²</li>
+            <li>Пилоны 960×1920, Р2.5 — 10 шт</li>
+            <li>LED Р3.5 — 40 м²</li>
             <li>Разрозненные экраны 8–10 шт, есть уличные решения</li>
           </ul>
         </div>
