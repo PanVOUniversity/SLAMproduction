@@ -109,7 +109,7 @@ html {
   background:
     radial-gradient(1200px 400px at 50% 10%, rgba(0,0,0,0.3), transparent 60%),
     linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url('/mainbackground.jpg?v=2') center/cover;
+    url('/mainbackground.jpg') center/cover;
 }
 
 /* remove pseudo-layers to simplify */
@@ -426,7 +426,7 @@ html {
 }
 
 .service-bg-2 {
-  background-image: url('/экраны за сценой и освещение на сцене оркестр на экранах москва сити вечер фон.jpg');
+  background-image: url('/mainbackground.jpg');
 }
 
 .service-card:hover .service-bg {
