@@ -836,3 +836,43 @@ html {
     font-size: 1.1rem;
   }
 }
+
+/* Touch-friendly behavior: disable large hover transforms on touch devices */
+@media (hover: none) {
+  .service-card:hover { transform: none; box-shadow: none; border-color: rgba(255, 255, 255, 0.1); }
+  .service-cta:hover { transform: none; box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3); }
+  .cta-button:hover { transform: none; box-shadow: 0 10px 25px rgba(124, 58, 237, 0.35); }
+  .metric:hover { transform: none; box-shadow: none; border-color: rgba(255, 255, 255, 0.08); }
+}
+
+/* Mobile-first refinements */
+@media (max-width: 640px) {
+  .header {
+    left: 0;
+    right: 0;
+    padding: 12px 14px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .phone {
+    width: 100%;
+    max-width: 380px;
+    padding: 10px 14px;
+  }
+
+  .phone-btn {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 15px;
+  }
+
+  .progress-bar { height: 3px; }
+
+  .hero-logo { width: clamp(180px, 55vw, 300px); }
+
+  .services-title { margin-bottom: 36px; }
+
+  .cta-buttons { gap: 12px; }
+  .cta-button { width: 100%; max-width: 420px; }
+}
