@@ -775,6 +775,11 @@ html {
   margin: 12px 0 28px;
 }
 
+/* Push equipment page CTAs lower */
+.equipment .cta-buttons {
+  margin-top: 48px;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .header {
@@ -835,6 +840,10 @@ html {
   .service-content h3 {
     font-size: 1.1rem;
   }
+}
+
+@media (max-width: 640px) {
+  .equipment .cta-buttons { margin-top: 56px; }
 }
 
 /* Touch-friendly behavior: disable large hover transforms on touch devices */
