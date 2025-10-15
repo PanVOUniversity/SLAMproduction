@@ -109,7 +109,7 @@ html {
   background:
     radial-gradient(1200px 400px at 50% 10%, rgba(0,0,0,0.3), transparent 60%),
     linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url(%PUBLIC_URL%/mainbackground.jpg) center/cover;
+    url('./assets/mainbackground.jpg') center/cover;
 }
 
 /* remove pseudo-layers to simplify */
@@ -422,11 +422,11 @@ html {
 }
 
 .service-bg-1 {
-  background-image: url(%PUBLIC_URL%/bg1.jpg);
+  background-image: url('./assets/bg1.jpg');
 }
 
 .service-bg-2 {
-  background-image: url(%PUBLIC_URL%/bg2.jpg);
+  background-image: url('./assets/bg2.jpg');
 }
 
 .service-card:hover .service-bg {
