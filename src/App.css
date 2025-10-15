@@ -109,7 +109,7 @@ html {
   background:
     radial-gradient(1200px 400px at 50% 10%, rgba(0,0,0,0.3), transparent 60%),
     linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url('/mainbackground.jpg') center/cover;
+    url(%PUBLIC_URL%/mainbackground.jpg) center/cover;
 }
 
 /* remove pseudo-layers to simplify */
@@ -422,11 +422,11 @@ html {
 }
 
 .service-bg-1 {
-  background-image: url('/экраны за сценой и освещение красные и синие прожекторы фон.jpg');
+  background-image: url(%PUBLIC_URL%/экраны за сценой и освещение красные и синие прожекторы фон.jpg);
 }
 
 .service-bg-2 {
-  background-image: url('/mainbackground.jpg');
+  background-image: url(%PUBLIC_URL%/mainbackground.jpg);
 }
 
 .service-card:hover .service-bg {
